@@ -6,11 +6,14 @@ interface ItemInCart {
 }
 
 const itemsInCart: ItemInCart[] = [
-  { productName:'Nintengo Switch 2', quantity: 1},
+  {productName:'Nintengo Switch 2', quantity: 2},
   {productName:'Pro Controller', quantity: 4},
-  {productName:'Super Smash Bros', quantity: 1}
+  {productName:'Super Smash Bros',  quantity: 1},
+  {productName:'Mario Kart World', quantity: 1}
 ]
+
 export function FirstStepsApp() {
+
   return (
     <>
       <h1>Carrito de Compras</h1>
