@@ -2,11 +2,11 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { GifsApp } from "./GifsApp";
-import { MyCounterApp } from "./counter/components/MyCounterApp";
+import { StrictMode } from "react";
 
 createRoot(document.getElementById("root")!).render(
-  // <StrictMode>
+  <StrictMode>
    <GifsApp/>
-  // <MyCounterApp />,
-  // </StrictMode>,
+  {/* <MyCounterApp />, */}
+   </StrictMode>,
 );
